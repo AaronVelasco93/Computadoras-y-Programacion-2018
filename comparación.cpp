@@ -3,11 +3,11 @@
 int main(int argc, char *argv[]) {
 	float n1=0, n2=0;
 	int n3=0;
-	printf("Ingresa tu número con decimales\n");
+	printf("Ingresa tu nÃºmero con decimales\n");
 	scanf ("%f", &n1);
-	printf("Ingresa tu número con decimales\n");
+	printf("Ingresa tu nÃºmero con decimales\n");
 	scanf ("%f", &n2);
-	printf("Ingresa tu número entero\n");
+	printf("Ingresa tu nÃºmero entero\n");
 	scanf("%d", &n3);
 	if ((n1!=n2)&&(n2!=n3)&&(n3!=n1)){
 		
@@ -35,8 +35,12 @@ int main(int argc, char *argv[]) {
 			
 			printf("%d es el mayor\n", n3);}
 	}
+	// falto el de igualdad 
+	/*
+	n3==n2 && n2==n1 && n1==n3
+	*/
 	
-	else {printf("números iguales\n");}
+	else {printf("nÃºmeros iguales\n");}
 	return 0;
 }
 
